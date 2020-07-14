@@ -777,9 +777,9 @@
         "voicehidden": "",
         "format": "audio/wav",
         "password": "",
-        "apikey": "WOoRXL_BxkgpI0tnnXm8nbI9_62YaFGWWZhqIckrHkjk",
+        "apikey": "",
         "payload-response": true,
-        "service-endpoint": "https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/35c10e3b-3c2a-463e-bd20-d3fdaa5628d0",
+        "service-endpoint": "",
         "x": 620,
         "y": 880,
         "wires": [
