@@ -16,6 +16,8 @@ This example flow and Node-RED Dashboard might be useful as part of a [Call for 
   - [node-red-contrib-web-worldmap](https://flows.nodered.org/node/node-red-contrib-web-worldmap)
   - [node-red-node-watson](https://flows.nodered.org/node/node-red-node-watson)
 - Signup for a [HERE Developer account](https://developer.here.com)
+- Signup for an [IBM Cloud](https://cloud.ibm.com/registration) account
+- Create a (free) instance of [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech)
 
 ## Node-RED flow in this repository:
 ---
@@ -33,7 +35,7 @@ This flow has four sections:
 to enter their starting location and ending destination.  The flow then calls the [HERE Geocode Search API](https://developer.here.com/documentation/geocoding-search-api/dev_guide/index.html) to determine the latitude and longitude of the two waypoints.
 1. The **Request Driving Navigation Instructions** section calls the [HERE Routing API](https://developer.here.com/documentation/routing/dev_guide/topics/introduction.html) to calculate the route between the two locations.  It builds a table of these driving instructions and displays a summary of the route distance and driving duration.
 1. The **Draw Map and Route** section moves the car on the node-red-contrib-web-worldmap as the navigator clicks on the **Navigation Preview** button.
-1. The **Read the Driving Instructions** section determines if the mute slider is on / off and uses the Watson Text to Speech service to read the driving instructions aloud.
+1. The **Read the Driving Instructions** section determines if the mute slider is on / off and uses the Watson Text to Speech service to read the driving instructions aloud. Paste your Watson Text to Speech credentials into the node.
 ---
 
 ### Authors
